@@ -1,0 +1,8 @@
+<p><h4>Welcome to varous types of blogging websites.</h4><br>
+    Here are some lists of blogging websites and those are some of the amazing ones.</p>
+
+{% for blog in blogs %}
+    <h3>{{ blog.title }}</h3><br>
+    {{ blog.decription }}
+    {{ blog.date }}<br>
+{% endfor %}
